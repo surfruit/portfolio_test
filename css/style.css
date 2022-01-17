@@ -296,9 +296,143 @@ color: #767676;
 }
 .plans__cards{
     margin-top: 50px;
+    display: flex;
+    
 }
 .plan_card{
+    margin-right: 21px;
     width: 310px;
-    height: 610px;
+    height:  610px;
     background:white;
+    text-align: center;
+}
+.plan_card h3{
+    margin-top: 54px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 123.6%;
+}
+
+.subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+}
+.subtitle h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 123.6%;
+    margin-right: 10px;
+}
+.subtitle h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+}
+.plan_card p{
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #767676;
+    width:248px;
+    margin-left: 31px;
+}
+.plan_card ul{
+    list-style-type: none;
+}
+.plan_card li{
+    margin-left: 33px;
+}
+.checkbox__active{
+    list-style:none;
+    background:url('../img/Check.svg') no-repeat 0 50%;
+    padding-left: 15px;
+}
+.recommendations{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recommendations h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 123.6%;
+}
+.recommendations p{
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+    width: 438px;
+    text-align: center;
+}
+.rec__cards{
+    display: flex;
+    justify-content: space-around;
+}
+.rec_card{
+    margin-right: 27px;
+    width: 310px;
+    height: 323px;
+    background:white;
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+}
+.rec_card img{
+    margin-top: 25px;
+}
+.rec_card h4{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+}
+.rec_card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+    margin-top: 18px;
+    width: 262px;
+    text-align: left;
+}
+.review__author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+.review__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    justify-content: flex-start;
+}
+.review__info h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.6%;
+}
+.review__info p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color:#767676;
 }
