@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    height: 467px;
+    background: url('../img/header_bg.png');
+    display: flex;
+    width: 970px;
+}
+
+.header__content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 93px;
+}
+
+.header__content p {
+    margin-left: 60px;
+    color: #767676;
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button {
+    margin-top: 25px;
+    margin-left: 60px;
+    height: 51px;
+    width: 154px;
+    background: #FFB400;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+}
+
+.yellow__text {
+    font-size: 48px;
+    color: #FFB400;
+}
+
+.header {
+    display: flex;
+}
+
+.left__menu {
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    padding: 1em;
+}
+
+.profile {
+    margin-top: 30px;
+}
+
+.profile h4 {
+    margin-top: 31px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 123.6%;
+}
+
+.profile p {
+    color: #767676;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt'off, 'kern'off;
+}
+
+.social__icons {
+    margin-top: 15px;
+}
+
+.social__icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.left__menu hr {
+    margin-top: 25px;
+    border: 1.5px solid #F0F0F6;
+}
+
+.profile__about {
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-left: 40px;
+
+}
+
+.about__h1 p {
+    padding: 9px;
+}
+
+.about__text p {
+    padding: 9px;
+}
+
+.right__nav {
+    margin-left: 27px;
+    background: white;
+    text-align: center;
+    width: 108px;
+    height: 1315px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right__nav a {
+    background: #F0F0F6;
+    border-radius: 50%;
+    width: 39.63px;
+    height: 40px;
+    margin-left: 33.68px;
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__nav a:hover {
+    transition: 10ms;
+    width: 39.63px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFB400;
+}
+.dark__mode{
+    cursor: pointer;
+    border:none;
+    background: white;
+}
