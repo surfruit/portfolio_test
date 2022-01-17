@@ -436,3 +436,50 @@ color: #767676;
     line-height: 24px;
     color:#767676;
 }
+.education{
+    padding: 70px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.education h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 123.6%;
+}
+.education p{
+    font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+text-align: center;
+width: 438px;
+margin-top: 25px;
+color: #767676;
+}
+.education__info{
+    width: 970px;
+    height: 632px;
+    background:white;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.educ__info_card{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-top: 47px;
+}
+.ed__info__title{
+    display: flex;
+    flex-direction: column;
+    width: 184px;
+}
+.ed__info__subtitle{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
