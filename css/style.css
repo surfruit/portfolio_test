@@ -207,7 +207,35 @@ color: #767676;
     border: none;
     background: white;
 }
-
+.skills {
+ text-align: left;
+    margin: 25px 40px;
+}
+.skills h4{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.6%;
+}
+.skills__name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.skills__name p{
+    font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+color: #767676;
+}
+.skills hr{
+    width: 208px;
+    height: 2px;
+    background: #FFB400;
+border-radius: 30px;
+margin: 10px 0;
+}
 .services {
     margin: 0 auto;
     padding: 138px 70px;
