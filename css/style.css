@@ -30,6 +30,9 @@ body {
 .profile {
     margin-top: 30px;
 }
+.avatar img{
+    border-radius:  50%;
+}
 
 .profile h4 {
     margin-top: 31px;
